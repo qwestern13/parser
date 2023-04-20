@@ -52,8 +52,6 @@ const puppeteer = require('puppeteer');
                 }, {waitUntil: 'li.arr'})
                 await res.push(html);
 
-
-                console.log(res);
                 counter++;
                 
             }
